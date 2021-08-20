@@ -1,5 +1,5 @@
 *{
-    margin: 0;
+    margin: 13 auto;
     padding: 0;
     box-sizing: border-box;
 }
@@ -21,6 +21,29 @@ h2 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: 300;
     font-size: 42px;
+    color: white;
+    text-align: center;
+}
+
+h3 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    text-align: center;
+}
+
+h4{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: gray;
+    text-align: center;
+}
+
+
+
+h5 {
+    color: gray;
+    text-align: right;
+    font-size: 20;
+    margin-right: 400px;
 }
 
 a {
@@ -32,10 +55,37 @@ a {
     margin:  20px auto;
 }
 
+#left{
+    color: honeydew;
+}
+
 
 i, figure {
     display: flex;
     justify-content: center;
+    color: gray;
 }
 
+.copyleft {
+    display: inline;
+    color: gray;
+    justify-items: right;
+    -moz-transform: scale(-1, 1);
+    -webkit-transform: scale(-1, 1);
+    -o-transform: scale(-1, 1);
+    -ms-transform: scale(-1, 1);
+    transform: scale(-1, 1);
+    margin-left: 80px;
+    
+  }
 
+  .footer {
+    margin-top: 20px;
+      display: flex;
+      justify-content: center;
+  }
+
+  span {
+    color: gray;
+    margin-left: 10px;
+  }
